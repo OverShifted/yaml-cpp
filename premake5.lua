@@ -26,7 +26,7 @@ project "yaml-cpp"
 
 	filter "system:windows"
 		systemversion "latest"
-		staticruntime (StaticRuntime)
+		staticruntime (staticRuntime)
 
 	filter "configurations:Debug"
 		runtime "Debug"
